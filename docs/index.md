@@ -65,7 +65,7 @@ steampipe plugin install zendesk
 
 ### Configuration
 
-Installing the latest aws plugin will create a config file (`~/.steampipe/config/zendesk.spc`) with a single connection named `zendesk`:
+Installing the latest zendesk plugin will create a config file (`~/.steampipe/config/zendesk.spc`) with a single connection named `zendesk`:
 
 ```hcl
 connection "zendesk" {
